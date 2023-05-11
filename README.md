@@ -28,75 +28,87 @@ streamlit run face.py
 
 ![zz](https://github.com/chosunghyun18/FaceDetection/assets/37647483/9df69a78-8282-4d4e-90bd-68644e178cec)
 
-## 결과
+## 결과 값
 
 Here are the other attributes:
-{
+
 "AgeRange": {
-"High": 22,
-"Low": 16
+"High": 22,"Low": 16
 },
+
 "Beard": {
 "Confidence": 80.1970443725586,
 "Value": false
 },
+
 "BoundingBox": {
 "Height": 0.5413402318954468,
 "Left": 0.23372748494148254,
 "Top": 0.23699793219566345,
 "Width": 0.5475195646286011
 },
+
 "Confidence": 99.99995422363281,
-"Emotions": [
+
+"Emotions":
+[
 {
 "Confidence": 85.1741943359375,
 "Type": "CALM"
 },
-{
-"Confidence": 10.519986152648926,
-"Type": "HAPPY"
-},
-{
-"Confidence": 6.427998065948486,
-"Type": "SURPRISED"
-},
-{
-"Confidence": 5.936996936798096,
-"Type": "FEAR"
-},
-{
-"Confidence": 2.345348596572876,
-"Type": "CONFUSED"
-},
-{
-"Confidence": 2.2382357120513916,
-"Type": "SAD"
-},
-{
-"Confidence": 0.639853298664093,
-"Type": "DISGUSTED"
-},
-{
-"Confidence": 0.5107327699661255,
-"Type": "ANGRY"
-}
+
+    {
+    "Confidence": 10.519986152648926,
+    "Type": "HAPPY"
+    },
+    {
+    "Confidence": 6.427998065948486,
+    "Type": "SURPRISED"
+    },
+    {
+    "Confidence": 5.936996936798096,
+    "Type": "FEAR"
+    },
+    {
+    "Confidence": 2.345348596572876,
+    "Type": "CONFUSED"
+    },
+    {
+    "Confidence": 2.2382357120513916,
+    "Type": "SAD"
+    },
+    {
+    "Confidence": 0.639853298664093,
+    "Type": "DISGUSTED"
+    },
+    {
+    "Confidence": 0.5107327699661255,
+    "Type": "ANGRY"
+    }
+
 ],
-"Eyeglasses": {
+
+"Eyeglasses":
+{
 "Confidence": 96.51451873779297,
 "Value": false
 },
+
 "EyesOpen": {
 "Confidence": 97.9422836303711,
 "Value": true
 },
+
 "FaceOccluded": {
 "Confidence": 99.94535064697266,
 "Value": false
 },
+
 "Gender": {
 "Confidence": 99.57880401611328,
 "Value": "Male"
 },
+
 "Landmarks": [
 {
 "Type": "eyeLeft",
@@ -249,27 +261,33 @@ Here are the other attributes:
 "Y": 0.4463496208190918
 }
 ],
+
 "MouthOpen": {
 "Confidence": 93.33851623535156,
 "Value": false
 },
+
 "Mustache": {
 "Confidence": 97.23092651367188,
 "Value": false
 },
+
 "Pose": {
 "Pitch": 1.3268544673919678,
 "Roll": -0.5914899110794067,
 "Yaw": 0.5754285454750061
 },
+
 "Quality": {
 "Brightness": 95.37979125976562,
 "Sharpness": 86.86019134521484
 },
+
 "Smile": {
 "Confidence": 83.11076354980469,
 "Value": false
 },
+
 "Sunglasses": {
 "Confidence": 99.99620056152344,
 "Value": false
